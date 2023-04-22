@@ -1,0 +1,64 @@
+/*
+primary: #F3EED9
+accent: #824936
+white: #FFF
+dark: #222C2A
+
+--fonts--
+primary: roboto and sans-serif
+accent playfair display, serif
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    line-height: 1;
+}
+
+section {
+    padding: 48px 0;
+}
+
+.container {
+
+}
+
+.bg-light {
+    background-color: #F3EED9;
+}
+
+.bg-dark {
+    background-color: #222C2A;
+    color: #fff;
+    
+}
+
+.bg-dark img {
+    width: 300px;
+    height: 200px;
+}
+
+.bg-accent img {
+    width: 300px;
+    height: 200px;
+}
+
+.bg-accent {
+    background-color: #824936;
+    color: #fff;
+}
+
